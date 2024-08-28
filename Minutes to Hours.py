@@ -8,7 +8,5 @@ minResult = minDecimal * 60
 
 #Opperation conditions
 
-
 ## Outputs
-# Commas (,) seperates prints with spaces between | Plus (+) signs seperates prints without spaces 
-print(hrResult, "hours and", int(minResult), "minutes")
+print(hrResult, "hours and", int(minResult), "minutes") # Commas (,) seperates prints with spaces between | Plus (+) signs seperates prints without spaces 
