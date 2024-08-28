@@ -14,6 +14,8 @@ division operators to calculate correct the values. Do not hard code the results
 4. Once it works, re-submit it to GradeScope to PA1. (You will have to fix some
 errors and complete some code!)
 Part 3: Confirm visit(s) to Piazza
-1) In a comment at the bottom of your PA1B submission (.py file), respond to the
+
+In a comment at the bottom of your PA1B submission (.py file), respond to the
 following question (the answer is on Piazza!)
+
 "Why did the computer scientist have their driver's license revoked?"
