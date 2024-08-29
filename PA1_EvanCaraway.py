@@ -20,19 +20,20 @@ item1 = "milk"
 item2 = "oats"
 item3 = "dish soap"
 item4 = "peanut butter"
-print("Grocery List:", item1, item2, item3, item4)
+
+print("Grocery List:", item1,",",item2,",", item3,",", item4)
 
 
 print("--------")        #section separator
 
 #ages section
 #####################
-myAge = 25
-yourAge = 16
-ageSum = myAge + yourAge
-ageDiff = abs(yourAge - myAge)
-print("The sum of your age and mine is", ageSum)
-print("Our age difference is", ageDiff)
+my_age = 25
+your_age = 16
+age_sum = my_age + your_age
+age_diff = your_age - my_age
+print("The sum of your age and mine is", age_sum)
+print("Our age difference is", abs(age_diff))
 
 print("--------")        #section separator
 
@@ -55,15 +56,16 @@ print("--------")        #section separator
 
 
 gallons = 4
-numPints = gallons * 8
-print(gallons, "gallons is equivalent to", numPints, "pints.")
+num_pints = 32
+print(gallons, "gallons is equivalent to", num_pints, "pints.")
 
-pintsOne = 27
-numGallons = pintsOne // 8
-extraPints = ((pintsOne / 8) - numGallons)*8
-print(pintsOne, "pints is equivalint to", int(numGallons), "gallons and", int(extraPints), "additional pints.")
+pints1 = 27
+num_gallons = pints1 // 8
+extra_pints = ((pints1 / 8) - num_gallons)*8
+print(pints1, "pints is equivalint to", int(num_gallons), "gallons and", int(extra_pints), "additional pints.")
 
-pintsOne = 105
-numGallons = pintsOne // 8
-extraPints = ((pintsOne / 8) - numGallons)*8
-print(pintsOne, "pints is equivalint to", int(numGallons), "gallons and", int(extraPints), "additional pints.")
+pints1 = 105
+num_gallons = pints1 // 8
+extra_pints = ((pints1 / 8) - num_gallons)*8
+print(pints1, "pints is equivalint to", int(num_gallons), "gallons and", int(extra_pints), "additional pints.")
+
